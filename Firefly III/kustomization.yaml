@@ -1,0 +1,12 @@
+resources:
+  - mysql.yaml
+  - firefly-iii.yaml
+  - ingress-firefly-iii-cron.yaml
+  - firefly-iii-importer.yaml
+secretGenerator:
+  - name: firefly-iii-secrets
+    literals:
+      - db_password=z9426464
+      - app_key=OKDOIQN123KLNJLK123
+      - access_token=PLQ6DQ9DQWEQ91EDPK
+      - static_cron_token=z9426464

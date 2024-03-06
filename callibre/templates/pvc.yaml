@@ -1,0 +1,1 @@
+helm install my-release nextcloud-aio/nextcloud-aio-helm-chart
